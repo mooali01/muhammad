@@ -1,0 +1,100 @@
+/* Tag */
+h4 {
+  color: green;
+}
+h1 {
+  color: red;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* ID */
+#one {
+  font-size: 70px;
+  text-align: center;
+}
+
+/* Class */
+.one {
+  color: black;
+  font-size: 70px;
+  font-style: italic;
+  text-align: center;
+  color: red;
+}
+
+/* ID and Class */
+#ravens {
+  color: rgb(227, 148, 29);
+  font-size: 25px;
+}
+
+.ravens {
+  color: rgb(33, 192, 240);
+  font-size: 25px;
+}
+
+.head {
+  margin-top: 150px;
+  font-weight: bold;
+  color: greenyellow;
+  background-color: black;
+  font-size: 30px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.box {
+  background-color:rgb(230, 229, 229);
+  padding: 200px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-top: 0em;
+  padding-bottom: 3em;
+  /* float: left;
+  width: 20%;
+  height: 200px; */
+}
+
+h5 {
+  margin-right: 150px;
+  margin-left: 600px;
+}
+
+.style1{
+  border-top: 1px solid #d5cdcd;
+  width: 1000px;
+  float: center;
+}
+
+
+/* Gradient color1 - color2 - color1 */
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Create three equal columns that floats next to each other */
+/* .column {
+  width: 33.33%;
+  padding: 20px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  /* width: 20em;
+  align-items: center;
+  justify-content: center;
+  background-color:green;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-items: center;
+  width: 20em;
+  align-items: center;
+  justify-items: center;
+  background-color:green; */
+/* } */ 
