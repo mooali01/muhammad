@@ -1,0 +1,27 @@
+##Step 1 ansible-playbook VmBuild.yaml  -i my-build.yml --extra-vars "host=app"
+[root@p00nsvl-minfa01 server-build]# cat my-build.yml
+---
+app:
+   hosts:
+    D01NSVL-MUHAM01:
+      ip_address: 10.29.41.142
+      ansible_host: 10.29.41.142
+      mem_sz: 4096
+      cpu_sz: 1
+      gw_adr: 10.29.40.1
+      net_adr: 10.29.40.0
+      nm_adr: 255.255.248.0
+      domain_nm: corp.lpl.com
+      datastore_nm: "SVC_DEV_C01"
+      net_nm: "10.29.40.0%2f21 (VL506)"
+      cluster_nm: "TX - DEV-C"
+      vcenter_srv: "TXVCENTERDEV01.corp.lpl.com"
+      datacenter_nm: "Texas Datacenter DEV"
+      template_nm: "TMPLT-RHEL7.6_Legacy_DEV"
+      folder_nm: "vm/VMBuild-TXDEV"
+      disk2_sz: 2048
+      mnt1: /Data
+      vcenter_uid: "amuhamma@corp.lpl.com"
+      disk1_sz: 80
+      ticket_info: "TASK123456 - Test Build"
+[root@p00nsvl-minfa01 server-build]#
